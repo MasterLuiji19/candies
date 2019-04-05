@@ -1,0 +1,295 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    font-size: 48px;
+    font-family: Gilroy-Bold;
+    line-height: normal;
+    color: #313335;
+}
+
+.wrapper {
+    margin: 0 auto;
+    max-width: 1103px;
+    padding-top: 119px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.left_sec {
+    width: 470px;
+}
+
+.subject {
+    display: flex;
+}
+
+.subject img {
+    margin-left: 20px;
+}
+
+.excerpt {
+    font-size: 16px;
+    line-height: 24px;
+    color: #6E7680;
+    width: 437px;
+}
+
+form{
+    margin-top: 30px;
+}
+
+.prevue {
+    font-size: 18px;
+    font-family: Gilroy-Bold;
+    color: #313335;
+}
+
+.input_list {
+    position: relative;
+    margin-top: 18px;
+}
+
+.email_input{
+    background: #F0F4F7;
+    border-radius: 30px;
+    height: 60px;
+    width: 100%;
+    border: none;
+    box-sizing: border-box;
+    padding-left: 30px;
+    cursor: pointer;
+    outline: none;
+}
+
+.email_input:hover{
+    background: #e2eaf0;
+}
+
+.email_input:focus:valid{
+    background: #fff;
+    border:2px solid #6BCA3E;
+}
+
+.email_input:invalid + .btn{
+    background: #fbeded;
+    border:2px solid #eea8b0;
+    color: #DA4353;
+}
+
+.btn {
+    position: absolute;
+    right: 10px;
+    top: 8px;
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    background-color: white;
+    border: 2px solid #e2eaf0;
+    cursor: pointer;
+    outline: none;
+}
+
+.btn:hover{
+    border: 2px solid #6BCA3E;
+    color: #6BCA3E;
+}
+
+.btn:active{
+    background: #6BCA3E;
+    color: #fff;
+}
+
+.right_sec {
+    width: 470px;
+    margin-left: 163px;
+}
+
+.list_item {
+}
+
+.tools_list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style-type: none;
+    padding: 0;
+}
+
+.a-list{
+    width: 24px;
+    height: 24px;
+    background: #F0F4F7;
+    border-radius: 24px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.a-list:hover{
+    background-color: #e2eaf0;
+    transition: 0.1s;
+}
+
+.a-list:focus{
+    border: 2px solid #6BCA3E;
+}
+
+.frame_list{
+    list-style-type: none;
+    padding-left: 20px;
+}
+hr{
+    border: none;
+    height: 1px;
+    background-color: #F0F4F7;;
+    width: 100%;
+    margin: 0;
+}
+
+.js{
+    font-family: Gilroy-Bold;
+    font-size: 10px;
+    color: #902156;
+    margin-top: 29px;
+    display: flex;
+    justify-content: space-between;
+}
+
+h3{
+    font-family: Gilroy-Bold;
+    font-size: 18px;
+    margin: 0;
+}
+
+.js-desc{
+    display: flex;
+    justify-content: space-between;
+}
+
+.frame_list p{
+    font-size: 14px;
+    color: #6E7680;
+    display: inline;
+    width: 329px;
+}
+
+.link-button{
+    font-family: Gilroy-Bold;
+    font-size: 10px;
+    display: inline;
+    background: #fff;
+    border: 2px solid #E2EAF0;
+    text-transform: uppercase;
+    width: 76px;
+    height: 28px;
+    border-radius: 22px;
+    margin-left: 25px;
+    cursor: pointer;
+    letter-spacing: 0.1em;
+}
+
+.link-button:hover{
+    background: #E2EAF0;
+}
+
+.all-candys{
+    background: #902156;
+    border-radius: 22px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    font-size: 14px;
+    font-family: Gilroy-Bold;
+    color: #fff;
+    padding: 14px 0px;
+    outline: none;
+}
+
+.all-candys:hover{
+    background: #AE2968;
+}
+
+footer{
+    margin: 0 auto;
+    max-width: 1440px;
+    margin-top: 77px;
+    background-color: #313335;
+    line-height: 18px;
+}
+
+.footer-box{
+    width: 1103px;
+    margin: 0 auto;
+    display: flex;
+    padding-top: 269px;
+}
+
+.list-box{
+    width: 470px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-list{
+    list-style-type: none;
+    padding: 0;
+}
+
+.article{
+    font-size: 14px;
+    color: #fff;
+    font-family: Gilroy-Bold;
+    margin-bottom: 17px;
+    display: inline-block;
+}
+
+.nav-list a{
+    font-size: 12px;
+    color: #A8B3C2;
+    text-decoration: none;
+    margin-bottom: 8px;
+    display: inline-block;
+}
+
+.contact-box{
+    display: flex;
+    width: 470px;
+    margin-left: 163px;
+}
+
+.contact-email{
+    display: flex;
+    flex-direction: column;
+}
+
+.nav-list .support-mail{
+    font-size: 12px;
+    color: #6BCA3E;
+}
+
+.error-box{
+    padding-left: 116px;
+}
+
+.text{
+    font-size: 12px;
+    color: #fff;
+}
+
+.err{
+    color: #6BCA3E;
+}
+
+.copyright{
+    font-size: 11px;
+    color: #6E7680;
+    margin-left: 780px;
+    padding-bottom: 20px;
+}
