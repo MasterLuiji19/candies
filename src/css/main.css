@@ -1,338 +1,338 @@
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 :root {
-    --black: #313335;
-    --gray: #6e7680;
-    --white: #fff;
-    --email-button: #f0f4f7;
-    --brown: #902156;
-    --dark-grey: #a8b3c2;
-    --light-brown: #ae2968;
-    --email-button_2: #e2eaf0;
-    --green: #6cca3e;
-    --pink-red: #fbeded;
-    --red: #eea9ae;
+  --black: #313335;
+  --gray: #6e7680;
+  --white: #fff;
+  --email-button: #f0f4f7;
+  --brown: #902156;
+  --dark-grey: #a8b3c2;
+  --light-brown: #ae2968;
+  --email-button_2: #e2eaf0;
+  --green: #6cca3e;
+  --pink-red: #fbeded;
+  --red: #eea9ae;
 }
 
 body {
-    font-family: "Roboto", sans-serif;
-    margin: 0;
+  font-family: "Roboto", sans-serif;
+  margin: 0;
 }
 
 .wrapper {
-    max-width: 1100px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 0;
+  max-width: 1100px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0;
 }
 
 .container {
-    display: flex;
-    justify-content: space-between;
-    margin: 119px auto 77px;
+  display: flex;
+  justify-content: space-between;
+  margin: 119px auto 77px;
 }
 
 h1 {
-    font-size: 48px;
-    font-family: Gilroy-Bold, sans-serif;
-    line-height: normal;
-    color: var(--black);
+  font-size: 48px;
+  font-family: Gilroy-Bold, sans-serif;
+  line-height: normal;
+  color: var(--black);
 }
 
 .separator {
-    border: none;
-    height: 1px;
-    background-color: var(--email-button);
-    width: 100%;
-    margin: 0;
+  border: none;
+  height: 1px;
+  background-color: var(--email-button);
+  width: 100%;
+  margin: 0;
 }
 
 .left_sec {
-    width: 470px;
+  width: 470px;
 }
 
 .subject {
-    display: flex;
-    margin-bottom: -28px;
+  display: flex;
+  margin-bottom: -28px;
 }
 
 .subject img {
-    margin-left: 27px;
+  margin-left: 27px;
 }
 
 .excerpt {
-    margin: 0;
-    font-size: 16px;
-    line-height: 24px;
-    color: var(--gray);
-    width: 437px;
-    padding-bottom: 27px;
+  margin: 0;
+  font-size: 16px;
+  line-height: 24px;
+  color: var(--gray);
+  width: 437px;
+  padding-bottom: 27px;
 }
 
 .subscribe {
-    margin-top: 30px;
+  margin-top: 30px;
 }
 
 .candy-form {
-    margin-top: 58px;
+  margin-top: 58px;
 }
 
 .prevue {
-    font-size: 18px;
-    font-family: Gilroy-Bold, sans-serif;
-    color: var(--black);
+  font-size: 18px;
+  font-family: Gilroy-Bold, sans-serif;
+  color: var(--black);
 }
 
 .input_list {
-    position: relative;
-    margin-top: 18px;
+  position: relative;
+  margin-top: 18px;
 }
 
 .email_input {
-    background: var(--email-button);
-    border-radius: 30px;
-    height: 60px;
-    width: 100%;
-    padding-left: 30px;
-    cursor: pointer;
-    outline: none;
-    border: 2px solid var(--email-button);
+  background: var(--email-button);
+  border-radius: 30px;
+  height: 60px;
+  width: 100%;
+  padding-left: 30px;
+  cursor: pointer;
+  outline: none;
+  border: 2px solid var(--email-button);
 }
 
 .email_input:hover {
-    background: var(--email-button_2);
-    border: 2px solid var(--email-button_2);
+  background: var(--email-button_2);
+  border: 2px solid var(--email-button_2);
 }
 
 .email_input:focus:valid {
-    background: var(--white);
-    border: 2px solid var(--green);
+  background: var(--white);
+  border: 2px solid var(--green);
 }
 
 .email_input:focus:invalid {
-    background: var(--pink-red);
-    border: 2px solid var(--red);
+  background: var(--pink-red);
+  border: 2px solid var(--red);
 }
 
 .email_input:invalid + .btn {
-    border: 2px solid var(--red);
+  border: 2px solid var(--red);
 }
 
 .btn {
-    position: absolute;
-    right: 10px;
-    top: 8px;
-    border-radius: 50%;
-    width: 45px;
-    height: 45px;
-    background-color: white;
-    border: 2px solid var(--email-button_2);
-    cursor: pointer;
-    outline: none;
+  position: absolute;
+  right: 10px;
+  top: 8px;
+  border-radius: 50%;
+  width: 45px;
+  height: 45px;
+  background-color: white;
+  border: 2px solid var(--email-button_2);
+  cursor: pointer;
+  outline: none;
 }
 
 .btn:hover {
-    border: 2px solid var(--green);
-    color: var(--green);
+  border: 2px solid var(--green);
+  color: var(--green);
 }
 
 .btn:active {
-    background: var(--green);
-    color: var(--white);
+  background: var(--green);
+  color: var(--white);
 }
 
 .right_sec {
-    width: 470px;
-    display: flex;
-    flex-direction: column;
+  width: 470px;
+  display: flex;
+  flex-direction: column;
 }
 
 .list_item {
-    display: flex;
-    justify-content: space-between;
-    padding: 0 15px 17px 0;
-    border-bottom: 1px solid var(--email-button);
-    margin-bottom: 29px;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 15px 17px 0;
+  border-bottom: 1px solid var(--email-button);
+  margin-bottom: 29px;
 }
 
 .icon_list {
-    width: 24px;
-    height: 24px;
-    background-color: var(--email-button);
-    text-align: center;
-    border-radius: 24px;
-    display: flex;
-    justify-content: center;
+  width: 24px;
+  height: 24px;
+  background-color: var(--email-button);
+  text-align: center;
+  border-radius: 24px;
+  display: flex;
+  justify-content: center;
 }
 
 .icon_list:hover {
-    background: var(--email-button_2);
+  background: var(--email-button_2);
 }
 
 .icon_list:focus {
-    background: var(--email-button_2);
-    border: 2px solid var(--green);
+  background: var(--email-button_2);
+  border: 2px solid var(--green);
 }
 
 .frame_list {
-    padding-bottom: 40px;
+  padding-bottom: 40px;
 }
 
 .list_js {
-    display: flex;
-    flex-direction: column;
-    padding-left: 15px;
-    list-style-type: none;
-    margin: 0;
+  display: flex;
+  flex-direction: column;
+  padding-left: 15px;
+  list-style-type: none;
+  margin: 0;
 }
 
 .js {
-    font-family: Gilroy-Bold, sans-serif;
-    font-size: 10px;
-    letter-spacing: 0.1em;
-    color: var(--brown);
-    margin: 0;
-    display: flex;
-    justify-content: space-between;
+  font-family: Gilroy-Bold, sans-serif;
+  font-size: 10px;
+  letter-spacing: 0.1em;
+  color: var(--brown);
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
 }
 
 h3 {
-    font-family: Gilroy-Bold, sans-serif;
-    font-size: 18px;
-    margin: 0;
+  font-family: Gilroy-Bold, sans-serif;
+  font-size: 18px;
+  margin: 0;
 }
 
 .js-desc {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    border-bottom: 1px solid var(--email-button_2);
-    padding-bottom: 20px;
-    margin-bottom: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid var(--email-button_2);
+  padding-bottom: 20px;
+  margin-bottom: 8px;
 }
 
 .frame-text {
-    font-size: 14px;
-    color: var(--gray);
-    display: inline;
+  font-size: 14px;
+  color: var(--gray);
+  display: inline;
 }
 
 .link-button {
-    font-family: Gilroy-Bold, sans-serif;
-    font-size: 10px;
-    display: inline;
-    background: var(--white);
-    border: 2px solid var(--email-button_2);
-    text-transform: uppercase;
-    width: 76px;
-    height: 28px;
-    border-radius: 22px;
-    cursor: pointer;
-    letter-spacing: 0.1em;
-    outline: none;
+  font-family: Gilroy-Bold, sans-serif;
+  font-size: 10px;
+  display: inline;
+  background: var(--white);
+  border: 2px solid var(--email-button_2);
+  text-transform: uppercase;
+  width: 76px;
+  height: 28px;
+  border-radius: 22px;
+  cursor: pointer;
+  letter-spacing: 0.1em;
+  outline: none;
 }
 
 .link-button:active {
-    border: 2px solid var(--green);
+  border: 2px solid var(--green);
 }
 
 .link-button:hover {
-    background: var(--email-button_2);
+  background: var(--email-button_2);
 }
 
 .all-candys {
-    background: var(--brown);
-    border-radius: 22px;
-    border: none;
-    cursor: pointer;
-    width: 100%;
-    font-size: 14px;
-    font-family: Gilroy-Bold, sans-serif;
-    color: var(--white);
-    padding: 14px 0;
-    outline: none;
+  background: var(--brown);
+  border-radius: 22px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  font-size: 14px;
+  font-family: Gilroy-Bold, sans-serif;
+  color: var(--white);
+  padding: 14px 0;
+  outline: none;
 }
 
 .all-candys:hover {
-    background: var(--light-brown);
+  background: var(--light-brown);
 }
 
 footer {
-    width: 100%;
-    background-color: var(--black);
+  width: 100%;
+  background-color: var(--black);
 }
 
 .footer-box {
-    width: 1103px;
-    margin: 0 auto;
-    padding-top: 269px;
-    display: flex;
-    justify-content: space-between;
-    max-width: 1100px;
+  width: 1103px;
+  margin: 0 auto;
+  padding-top: 269px;
+  display: flex;
+  justify-content: space-between;
+  max-width: 1100px;
 }
 
 .list-box {
-    width: 470px;
-    display: flex;
-    justify-content: space-between;
+  width: 470px;
+  display: flex;
+  justify-content: space-between;
 }
 
 .nav-list {
-    list-style-type: none;
-    padding: 0;
+  list-style-type: none;
+  padding: 0;
 }
 
 .article {
-    font-size: 14px;
-    color: var(--white);
-    font-family: Gilroy-Bold, sans-serif;
-    margin-bottom: 17px;
-    display: inline-block;
+  font-size: 14px;
+  color: var(--white);
+  font-family: Gilroy-Bold, sans-serif;
+  margin-bottom: 17px;
+  display: inline-block;
 }
 
 .footer_a {
-    font-size: 12px;
-    color: var(--dark-grey);
-    text-decoration: none;
-    margin-bottom: 8px;
-    display: inline-block;
+  font-size: 12px;
+  color: var(--dark-grey);
+  text-decoration: none;
+  margin-bottom: 8px;
+  display: inline-block;
 }
 
 .contact-box {
-    display: flex;
-    width: 470px;
-    margin-left: 163px;
+  display: flex;
+  width: 470px;
+  margin-left: 163px;
 }
 
 .contact-email {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 .nav-list .support-mail {
-    font-size: 12px;
-    color: var(--green);
+  font-size: 12px;
+  color: var(--green);
 }
 
 .error-box {
-    padding-left: 116px;
+  padding-left: 116px;
 }
 
 .text {
-    font-size: 12px;
-    color: var(--white);
+  font-size: 12px;
+  color: var(--white);
 }
 
 .err {
-    color: var(--green);
+  color: var(--green);
 }
 
 .copyright {
-    font-size: 11px;
-    color: var(--gray);
-    padding-left: 1032px;
-    padding-bottom: 20px;
-    margin: 0;
+  font-size: 11px;
+  color: var(--gray);
+  padding-left: 1032px;
+  padding-bottom: 20px;
+  margin: 0;
 }

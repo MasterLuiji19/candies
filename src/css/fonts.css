@@ -1,7 +1,6 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+
 @font-face {
-    font-family: Gilroy-Bold;
-    src: url('../fonts/Gilroy-Bold.woff');
+  font-family: Gilroy-Bold;
+  src: url("../fonts/Gilroy-Bold.woff");
 }
-
-
