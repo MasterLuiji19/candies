@@ -1,13 +1,12 @@
-# Project Name
+# Candies
 
-### [Demo](https://link-to-github-pages.com)
+### [Demo](https://masterluiji19.github.io/candies/src/index.html)
 
 ### Description
 
-Tell about your project
+This project is designed to explore
 
 ### Technologies are used
 
 - HTML
 - CSS
-- ...
